@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res" >
+            <file
+                name="tab_bottom_bar_text_selector"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/color/tab_bottom_bar_text_selector.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="app_item_bg"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable/app_item_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_selector"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable/button_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable/ic_launcher.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="app_item_bg_normal"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/app_item_bg_normal.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="app_item_bg_pressed"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/app_item_bg_pressed.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="close"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/close.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_bg_tips_1"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_bg_tips_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_bg_tips_2"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_bg_tips_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_bg_tips_3"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_bg_tips_3.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_rocket_launch_1"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_rocket_launch_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_rocket_launch_2"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_rocket_launch_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_smoke_m"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_smoke_m.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="desktop_smoke_t"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/desktop_smoke_t.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="floating_desktop_bg_danger"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/floating_desktop_bg_danger.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="floating_desktop_bg_hazard"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/floating_desktop_bg_hazard.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="floating_desktop_bg_usage_01"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/floating_desktop_bg_usage_01.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="floating_desktop_bg_usage_02"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/floating_desktop_bg_usage_02.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="floating_desktop_bg_usage_03"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/floating_desktop_bg_usage_03.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="meminfo"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/meminfo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="one"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/one.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="tapp_icon_mainnavbar_apps_nor"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/tapp_icon_mainnavbar_apps_nor.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="tapp_icon_public_rightarrow"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/tapp_icon_public_rightarrow.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ufo_1"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/ufo_1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ufo_2"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-hdpi/ufo_2.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_envrionment"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_envrionment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_intent_test"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_intent_test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_kindsoftest"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_kindsoftest.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_memory"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_memory.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_network"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_network.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_sdcard"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_sdcard.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="floatview"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/floatview.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="network_monitor_activity"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/network_monitor_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="process_item"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/process_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="processlist"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/processlist.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="testdata_activity"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/testdata_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cover00"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/cover00.jpg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="cover1"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/cover1.jpg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="cover2"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/cover2.jpg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="musicexample"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/musicexample.wav"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="musicexample2"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/musicexample2.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="picexample"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/picexample.jpg"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="text1"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/text1.png"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="videoexample"
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/raw/videoexample.m4v"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/artist.xml"
+                qualifiers="" >
+                <string-array name="artist" >
+                    <item>
+妈妈说我的名字可以很长很长很长冰冰爱甜甜能看到么?那是真爱啊啊啊啊啊啊啊啊啊啊啊啊
+                    </item>
+                    <item>
+噍噎噏噐噑한국사람은アリババはпрстуфхцчшش.و فال ا
+                    </item>
+                    <item>
+~!??@#$%^*(){}_+/////://?/
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="taoapplink" >#ff008fd5
+                </color>
+                <color name="H_blue_light_1" >#FF878DA9
+                </color>
+                <color name="cp_match_award_lose_text" >#ff396c0b
+                </color>
+                <color name="cp_match_award_win_text" >#ff981919
+                </color>
+                <color name="H_gray_dark_2" >#FF646566
+                </color>
+                <color name="H_gray_dark_3" >#FF9FA1A3
+                </color>
+                <color name="index_item_shadow" >#88999999
+                </color>
+                <color name="O_black_light_7" >#FFE9E9E9
+                </color>
+                <color name="I_green" >#FF429917
+                </color>
+                <color name="C_white" >#FFFFFFFF
+                </color>
+                <color name="H_gray_dark_1" >#FFB1B1B1
+                </color>
+                <color name="D_black_light_1" >#FF333333
+                </color>
+                <color name="H_orange_light_1" >#FFE55245
+                </color>
+                <color name="H_gray_dark_4" >#FF6191CE
+                </color>
+                <color name="E_black_light_3_2" >#FF888888
+                </color>
+                <color name="H_gray_dark_5" >#FF3489E4
+                </color>
+                <color name="appcategory_listitem_bg1" >#ffe7e5e6
+                </color>
+                <color name="bg_menu_pressed" >#8f000000
+                </color>
+                <color name="appcategory_listitem_bg2" >#fff3f3f3
+                </color>
+                <color name="progress_light_foregroud" >#ffCCCCCC
+                </color>
+                <color name="like_color" >#ff605f5f
+                </color>
+                <color name="cp_match_award_cancel_text" >#ff999999
+                </color>
+                <color name="D_half_black_light_1" >#7F333333
+                </color>
+                <color name="data_list_item_subtitle_color" >@color/F_black_light_4
+                </color>
+                <color name="N_blue" >#FF4598E6
+                </color>
+                <color name="J_half_orange_light_2" >#7FEC0000
+                </color>
+                <color name="transparent_mask" >#bb000000
+                </color>
+                <color name="R_black_light_10" >#FFB3B3B3
+                </color>
+                <color name="K_black_light_7" >#FFE4E4E4
+                </color>
+                <color name="progress_light_backgroud" >#ffDDDDDD
+                </color>
+                <color name="K_black_light_8" >#FFE8E8E8
+                </color>
+                <color name="H_blue_light" >#FF0088FF
+                </color>
+                <color name="bg_taoappinfo" >#ff282b2c
+                </color>
+                <color name="K_black_light_6" >#FFE5E5E5
+                </color>
+                <color name="T_blue" >#FF0099FF
+                </color>
+                <color name="G_black_light_5" >#FFCCCCCC
+                </color>
+                <color name="K_black_light_9" >#FFBDBDBD
+                </color>
+                <color name="progress_dark_foregroud" >#ff666666
+                </color>
+                <color name="E_black_light_3" >#FF666666
+                </color>
+                <color name="M_orange_light_3" >#FFFFCD6D
+                </color>
+                <color name="cp_match_award_draw_text" >#ff6c5f4e
+                </color>
+                <color name="S_black_light_11" >#FF555555
+                </color>
+                <color name="global_background" >#FFF5F5F5
+                </color>
+                <color name="progress_dark_backgroud" >#ff444444
+                </color>
+                <color name="Q_black_light_9" >#FFFBFBFB
+                </color>
+                <color name="login_background" >#FFE4E4E4
+                </color>
+                <color name="pick_item_bg_nor" >#ffeeeeee
+                </color>
+                <color name="cp_match_award_cancel_bg" >#ffdadada
+                </color>
+                <color name="transparent" >#00000000
+                </color>
+                <color name="cp_match_award_draw_bg" >#ffe9e1d7
+                </color>
+                <color name="F_black_light_4" >#FF999999
+                </color>
+                <color name="index_item_bg_3" >#FFF46B41
+                </color>
+                <color name="H_gray_light_3" >#FFDCDCDC
+                </color>
+                <color name="index_item_bg_1" >#FFDECBA1
+                </color>
+                <color name="J_orange_light_2" >#FFEC0000
+                </color>
+                <color name="H_gray_light_2" >#FFF0F0F0
+                </color>
+                <color name="index_item_bg_2" >#FFBDCABC
+                </color>
+                <color name="cp_match_award_lose_bg" >#ffdde7ce
+                </color>
+                <color name="half_transparent" >#7f000000
+                </color>
+                <color name="H_gray_light_4" >#FFDDDDDD
+                </color>
+                <color name="B_black" >#FF000000
+                </color>
+                <color name="L_black_light_2" >#FF444444
+                </color>
+                <color name="P_black_light_8" >#FFF2F2F2
+                </color>
+                <color name="bg_menu_normal" >#8f333333
+                </color>
+                <color name="pick_item_bg_pressed" >#ffe4e4e4
+                </color>
+                <color name="data_list_item_title_color" >@color/B_black
+                </color>
+                <color name="dl_status_text_color" >#7c7c7c
+                </color>
+                <color name="H_gray_light" >#FFD3D3D3
+                </color>
+                <color name="A_orange" >#FFFF4400
+                </color>
+                <color name="cp_match_award_win_bg" >#ffeddcd7
+                </color>
+                <color name="H_gray_dark" >#FF808080
+                </color>
+            </file>
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/envrionment.xml"
+                qualifiers="" >
+                <string-array name="envrionment" >
+                    <item>
+daily
+                    </item>
+                    <item>
+preview
+                    </item>
+                    <item>
+online
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/specicalsymbol.xml"
+                qualifiers="" >
+                <string-array name="symbol" >
+                    <item>
+妈妈说我的名字可以很长很长很长冰冰爱甜甜能看到么?那是真爱啊啊啊啊啊啊啊啊啊啊啊啊
+                    </item>
+                    <item>
+噍噎噏噐?噑한국사람은アリババはпрстуфхцчшش.و فال ا
+                    </item>
+                    <item>
+~!??@#$%^*(){}_+/////://?/
+                    </item>
+                    <item>
+~!@#$$%%^^\&amp;*()_+">:":P:
+                    </item>
+>
+                </string-array>
+            </file>
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="copy1000img" >1000图片
+                </string>
+                <string name="main_network" >系统监控
+                </string>
+                <string name="main_sdcard" >存储空间
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="default_process_name" >com.taobao.appcenter
+                </string>
+                <string name="app_name" >TestingTool
+                </string>
+                <string name="main_testdata" >测试数据
+                </string>
+                <string name="main_memory" >内存管理
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="copy1000video" >1000视频
+                </string>
+                <string name="copy1000music" >1000音乐
+                </string>
+            </file>
+            <file
+                path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/build/generated/res/rs/debug" />
+        <source path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/debug/res" />
+    </dataSet>
+
+</merger>

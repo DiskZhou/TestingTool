@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/K_black_light_8"
+              android:orientation="vertical" >
+
+
+    <ScrollView
+            android:id="@+id/sv_profile_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none" >
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+
+            <!-- 内存 -->
+
+            <RelativeLayout
+                    android:id="@+id/rl_memory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="72dip"
+                    android:background="@drawable/app_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="18dip"
+                    android:paddingRight="18dip" >
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal" >
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tapp_icon_mainnavbar_apps_nor" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:text="@string/main_memory"
+                            android:textColor="@color/D_black_light_1"
+                            android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/tapp_icon_public_rightarrow" />
+            </RelativeLayout>
+
+            <!-- SD卡 -->
+
+            <RelativeLayout
+                    android:id="@+id/rl_sdcard"
+                    android:layout_width="fill_parent"
+                    android:layout_height="72dip"
+                    android:background="@drawable/app_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="18dip"
+                    android:paddingRight="18dip" >
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal" >
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tapp_icon_mainnavbar_apps_nor" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:text="@string/main_sdcard"
+                            android:textColor="@color/D_black_light_1"
+                            android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                        android:id="@+id/iv_profile_downloadlist_rightarrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/tapp_icon_public_rightarrow" />
+
+                <TextView
+                        android:id="@+id/tv_profile_count_downloadlist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dip"
+                        android:layout_toLeftOf="@id/iv_profile_downloadlist_rightarrow"
+                        android:background="@drawable/tapp_icon_mainnavbar_apps_nor"
+                        android:gravity="center"
+                        android:textColor="@color/C_white"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+            </RelativeLayout>
+
+            <!-- 网络 -->
+
+            <RelativeLayout
+                    android:id="@+id/rl_network"
+                    android:layout_width="fill_parent"
+                    android:layout_height="72dip"
+                    android:background="@drawable/app_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="18dip"
+                    android:paddingRight="18dip" >
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal" >
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tapp_icon_mainnavbar_apps_nor" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:text="@string/main_network"
+                            android:textColor="@color/D_black_light_1"
+                            android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/tapp_icon_public_rightarrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/rl_testdata"
+                    android:layout_width="fill_parent"
+                    android:layout_height="72dip"
+                    android:background="@drawable/app_item_bg"
+                    android:clickable="true"
+                    android:paddingLeft="18dip"
+                    android:paddingRight="18dip" >
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal" >
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/tapp_icon_mainnavbar_apps_nor" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:text="@string/main_testdata"
+                            android:textColor="@color/D_black_light_1"
+                            android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/tapp_icon_public_rightarrow" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_swtichevnironment"
+                android:layout_width="fill_parent"
+                android:layout_height="72dip"
+                android:background="@drawable/app_item_bg"
+                android:clickable="true"
+                android:paddingLeft="18dip"
+                android:paddingRight="18dip" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tapp_icon_mainnavbar_apps_nor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="切换环境"
+                        android:textColor="@color/D_black_light_1"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tapp_icon_public_rightarrow" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_intents"
+                android:layout_width="fill_parent"
+                android:layout_height="72dip"
+                android:background="@drawable/app_item_bg"
+                android:clickable="true"
+                android:paddingLeft="18dip"
+                android:paddingRight="18dip" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tapp_icon_mainnavbar_apps_nor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="入口测试"
+                        android:textColor="@color/D_black_light_1"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tapp_icon_public_rightarrow" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_main.xml -->

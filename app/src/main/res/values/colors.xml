@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    
+    <color name="global_background">#FFF5F5F5</color>
+     <color name="login_background">#FFE4E4E4</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#7f000000</color>
+    <color name="transparent_mask">#bb000000</color>
+    
+    <!-- 颜色名字的前缀(比如A_,H_)用来对应颜色规范里面的标号，不必随意加 。不同透明度的相同颜色，使用相同前缀。一般命名格式为“颜色编号_颜色描述”-->
+    <color name="C_white">#FFFFFFFF</color>
+    <color name="B_black">#FF000000</color>
+    <color name="D_black_light_1">#FF333333</color>
+    <color name="D_half_black_light_1">#7F333333</color>
+    <color name="L_black_light_2">#FF444444</color>
+    <color name="E_black_light_3">#FF666666</color>
+    <color name="E_black_light_3_2">#FF888888</color>
+    <color name="F_black_light_4">#FF999999</color>
+    <color name="G_black_light_5">#FFCCCCCC</color>
+    <color name="K_black_light_6">#FFE5E5E5</color>
+    <color name="K_black_light_7">#FFE4E4E4</color>
+    <color name="K_black_light_8">#FFE8E8E8</color>
+    <color name="K_black_light_9">#FFBDBDBD</color>
+    <color name="A_orange">#FFFF4400</color>
+    <color name="H_orange_light_1">#FFE55245</color>
+    <color name="J_orange_light_2">#FFEC0000</color>
+    <color name="J_half_orange_light_2">#7FEC0000</color>
+    <color name="M_orange_light_3">#FFFFCD6D</color>
+    <color name="I_green">#FF429917</color>
+    <color name="N_blue">#FF4598E6</color>
+    <color name="T_blue">#FF0099FF</color>
+    <color name="H_blue_light">#FF0088FF</color>
+    <color name="H_blue_light_1">#FF878DA9</color>
+    
+    <color name="H_gray_dark">#FF808080</color>
+    <color name="H_gray_dark_1">#FFB1B1B1</color>
+    <color name="H_gray_dark_2">#FF646566</color>
+    <color name="H_gray_dark_3">#FF9FA1A3</color>
+    <color name="H_gray_dark_4">#FF6191CE</color>
+    <color name="H_gray_dark_5">#FF3489E4</color>
+    <color name="H_gray_light">#FFD3D3D3</color>
+    <color name="H_gray_light_2">#FFF0F0F0</color>
+    <color name="H_gray_light_3">#FFDCDCDC</color>
+    <color name="H_gray_light_4">#FFDDDDDD</color>
+
+    <color name="index_item_bg_1">#FFDECBA1</color>
+    <color name="index_item_bg_2">#FFBDCABC</color>
+    <color name="index_item_bg_3">#FFF46B41</color>
+    <color name="index_item_shadow">#88999999</color>
+    
+    <color name="O_black_light_7">#FFE9E9E9</color>
+    <color name="P_black_light_8">#FFF2F2F2</color>
+    <color name="Q_black_light_9">#FFFBFBFB</color>
+    <color name="R_black_light_10">#FFB3B3B3</color>
+    <color name="S_black_light_11">#FF555555</color>
+    
+    <color name="cp_match_award_cancel_bg">#ffdadada</color>
+	<color name="cp_match_award_win_bg">#ffeddcd7</color>    
+	<color name="cp_match_award_draw_bg">#ffe9e1d7</color>  
+	<color name="cp_match_award_lose_bg">#ffdde7ce</color>
+	<color name="cp_match_award_cancel_text">#ff999999</color>
+	<color name="cp_match_award_win_text">#ff981919</color>    
+	<color name="cp_match_award_draw_text">#ff6c5f4e</color>  
+	<color name="cp_match_award_lose_text">#ff396c0b</color>
+	
+	<color name="progress_dark_backgroud">#ff444444</color>  
+	<color name="progress_dark_foregroud">#ff666666</color>
+	<color name="progress_light_backgroud">#ffDDDDDD</color>  
+	<color name="progress_light_foregroud">#ffCCCCCC</color>
+	
+	<color name="appcategory_listitem_bg1">#ffe7e5e6</color>
+	<color name="appcategory_listitem_bg2">#fff3f3f3</color>
+	
+	<color name="bg_menu_normal">#8f333333</color>
+	<color name="bg_menu_pressed">#8f000000</color>
+	<color name="pick_item_bg_nor">#ffeeeeee</color>
+	<color name="pick_item_bg_pressed">#ffe4e4e4</color>
+    <color name="like_color">#ff605f5f</color>
+    <color name="bg_taoappinfo">#ff282b2c</color>
+    <color name="taoapplink">#ff008fd5</color>
+
+    <color name="dl_status_text_color">#7c7c7c</color>
+
+    <color name="data_list_item_title_color">@color/B_black</color>
+    <color name="data_list_item_subtitle_color">@color/F_black_light_4</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="envrionment">
+        <item>daily</item>
+        <item>preview</item>
+        <item>online</item>
+    </string-array>
+</resources>

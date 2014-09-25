@@ -1,0 +1,20 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 16
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        applicationId "com.qiner.appinfo"
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('src/main/libs/mp3agic-0.8.1.jar')
+}

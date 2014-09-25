@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩余空间"
+                    android:id="@+id/textView_lable"
+                    android:layout_column="3"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_freememory"
+                    android:layout_column="6"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/progressBar_fill"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="40"
+                android:max="100"
+                android:indeterminate="false"
+                android:clickable="false"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+        <RadioGroup
+                android:id="@+id/myRadioGroup"
+                android:checkedButton="@+id/radioButton_custom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom"
+                android:id="@+id/radioButton_custom"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Fill"
+                android:id="@+id/radioButton_fullfill"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/radioButton_custom"
+                android:layout_marginLeft="50dp"/>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_fillednumber"
+                android:maxLength="10"
+                android:hint="请输入消耗的空间大小..."
+                android:numeric="signed"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical|left"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp">
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Do Now"
+                android:id="@+id/button_fillspace"
+                />
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear All"
+                android:id="@+id/button_freespace"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/activity_sdcard.xml -->

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00000000">
+
+        <LinearLayout
+            android:id="@+id/Lin"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:background="#88000000"
+            android:layout_gravity="top"
+
+            >
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:id="@+id/memtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff1f1f1"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+
+                android:id="@+id/memunused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff1f1f1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/receivespeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#fff1f1f1"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:gravity="right"
+                android:id="@+id/sendspeed"
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff1f1f1"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:gravity="right"
+                android:id="@+id/cpuinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff1f1f1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="1dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/re"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#88000000">
+
+            <Button
+                android:id="@+id/btn_gc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GC" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="隐藏" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/res/layout/floatview.xml -->

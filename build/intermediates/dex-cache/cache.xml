@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/build/intermediates/pre-dexed/debug/mp3agic-0.8.1-b5c937f6eb2582e4353032048a19eaf9fd28082e.jar"
+        jar="/Users/diskzhou/Develop/WorkSpace/TestingTool/TestingTool/app/src/main/libs/mp3agic-0.8.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b9d8a45a589b596d29617c4e0fa9fbe1cea9fee9"/>
+
+</pre-dex-items>

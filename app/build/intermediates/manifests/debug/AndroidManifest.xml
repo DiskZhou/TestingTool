@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qiner.appinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="16" />
+    <!-- sdcard权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 悬浮窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.appcenter.testingtool.model.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.appcenter.testingtool.service.FloatService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="" >
+        </service>
+
+        <receiver android:name="com.appcenter.testingtool.model.AppReciver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.appcenter.testingtool.testing.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.appcenter.testingtool.testing.MemoryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appcenter.testingtool.testing.MonitorFloatActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appcenter.testingtool.testing.SDCardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appcenter.testingtool.testing.TestDataActivcity"
+            android:label="TestingTool"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appcenter.testingtool.testing.EnvrionmentSwitchActivity"
+            android:label="TestingTool"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appcenter.testingtool.testing.IntentTestActivity"
+            android:label="TestingTool" />
+        <activity
+            android:name="com.appcenter.testingtool.testing.PackageManagerActivity"
+            android:label="TestingTool" />
+        <activity android:name="com.appcenter.testingtool.testing.NetworkMontor" />
+    </application>
+
+</manifest>

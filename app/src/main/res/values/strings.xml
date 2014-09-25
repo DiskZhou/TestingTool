@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestingTool</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_memory">内存管理</string>
+    <string name="main_sdcard">存储空间</string>
+    <string name="main_network">系统监控</string>
+    <string name="main_testdata">测试数据</string>
+    <string name="default_process_name">com.taobao.appcenter</string>
+    <string name="copy1000music">1000音乐</string>
+    <string name="copy1000img">1000图片</string>
+    <string name="copy1000video">1000视频</string>
+
+</resources>
