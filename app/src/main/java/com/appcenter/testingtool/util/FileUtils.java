@@ -10,6 +10,7 @@ import java.io.OutputStream;
 import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
 
@@ -23,6 +24,9 @@ public class FileUtils {
         return (dictory.endsWith(File.separator) ?dictory  : dictory + File.separator)+fileName;
 
     }
+
+
+
 
     public static String CreateFolder(String folderPath){
 

@@ -195,7 +195,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/rl_swtichevnironment"
+                android:id="@+id/rl_proxy"
                 android:layout_width="fill_parent"
                 android:layout_height="72dip"
                 android:background="@drawable/app_item_bg"
@@ -218,7 +218,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dip"
-                        android:text="切换环境"
+                        android:text="代理设置"
                         android:textColor="@color/D_black_light_1"
                         android:textSize="18dp" />
                 </LinearLayout>

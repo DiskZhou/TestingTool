@@ -19,6 +19,7 @@ public class AppReciver extends BroadcastReceiver {
             TaoLog.Logi(TAG,"haha");
             String packageName = intent.getDataString();
             TaoLog.Logi(TAG,"安装了:" +packageName + "包名的程序");
+            TaoLog.Logi(TAG,intent.toString());
         }
         //接收卸载广播
         if (intent.getAction().equals("android.intent.action.PACKAGE_REMOVED")) {

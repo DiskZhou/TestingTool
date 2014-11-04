@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private RelativeLayout rl_sdcard = null;
     private RelativeLayout rl_network = null;
     private RelativeLayout rl_testdata = null;
-    private RelativeLayout rl_switchenvironment = null;
+    private RelativeLayout rl_proxy = null;
     private RelativeLayout rl_inetent_test = null;
 
 
@@ -34,14 +34,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         rl_sdcard = (RelativeLayout) findViewById(R.id.rl_sdcard);
         rl_network = (RelativeLayout) findViewById(R.id.rl_network);
         rl_testdata = (RelativeLayout) findViewById(R.id.rl_testdata);
-        rl_switchenvironment = (RelativeLayout) findViewById(R.id.rl_swtichevnironment);
+        rl_proxy = (RelativeLayout) findViewById(R.id.rl_proxy);
         rl_inetent_test = (RelativeLayout) findViewById(R.id.rl_intents);
 
         rl_memory.setOnClickListener(this);
         rl_sdcard.setOnClickListener(this);
         rl_network.setOnClickListener(this);
         rl_testdata.setOnClickListener(this);
-        rl_switchenvironment.setOnClickListener(this);
+        rl_proxy.setOnClickListener(this);
         rl_inetent_test.setOnClickListener(this);
 
     }
@@ -84,8 +84,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         } else if (view.equals(rl_testdata)) {
             Intent intent = new Intent(this, TestDataActivcity.class);
             startActivity(intent);
-        } else if (view.equals(rl_switchenvironment)) {
-            Intent intent = new Intent(this, EnvrionmentSwitchActivity.class);
+        } else if (view.equals(rl_proxy)) {
+            Intent intent = new Intent(this, ProxyActivity.class);
             startActivity(intent);
         } else if (view.equals(rl_inetent_test)) {
             Intent intent = new Intent(this, IntentTestActivity.class);
