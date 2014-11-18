@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.appcenter.testingtool.R;
 import com.appcenter.testingtool.model.WifiProxyManager;
+import com.appcenter.testingtool.util.StorageUtil;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,6 +20,9 @@ import java.util.regex.Pattern;
  */
 public class ProxyActivity extends Activity {
 
+
+    public final String IP_SET = "ip_set";
+    public final String PORT_SET = "port_set";
 
     private EditText et_proxy_ip=null;
     private EditText et_proxy_port=null;
@@ -83,6 +87,13 @@ public class ProxyActivity extends Activity {
                 }).start();
             }
         });
+
+        if(StorageUtil.ReadContent(this,IP_SET)!=""){
+            et_proxy_ip.setText(StorageUtil.ReadContent(this,IP_SET));
+        }
+        if(StorageUtil.ReadContent(this,PORT_SET)!=""){
+            et_proxy_port.setText(StorageUtil.ReadContent(this,PORT_SET));
+        }
     }
 
 
@@ -116,6 +127,8 @@ public class ProxyActivity extends Activity {
         if (ip!=""&&isIpv4(ip)){
 
             if(WifiProxyManager.Instance(this).setWifiProxySettings(ip,port)){
+                StorageUtil.SaveContent(this,IP_SET,ip);
+                StorageUtil.SaveContent(this,PORT_SET,String.valueOf(port));
                 updateText("Set Proxy Success, with "+ip);
             }else{
                 updateText("set failed please try again");
