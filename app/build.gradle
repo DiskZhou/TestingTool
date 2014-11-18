@@ -15,6 +15,12 @@ android {
     }
 }
 
+//repositories {
+//    maven {
+//        url "http://madeye-maven-repository.googlecode.com/git"
+//    }
+//}
 dependencies {
     compile files('src/main/libs/mp3agic-0.8.1.jar')
 }
+
